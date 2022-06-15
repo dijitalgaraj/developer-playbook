@@ -22,7 +22,7 @@ Journey starts with the planning:
 * Version number should be set to these tasks.
 
 ### How we proceed
-* Before beginning development, you should take a look at our [How to use git](/HowToUseGit.md)
+* Before beginning development, you should take a look at our [How to use git](HowToUseGit.md)
 * Development starts with taking first task to the "In Progress"
 * ##### If you finish the task, there are couple of things to do:
   * Always make your own tests before finishing
