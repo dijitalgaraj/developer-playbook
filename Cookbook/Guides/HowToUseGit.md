@@ -10,9 +10,8 @@ We use GitHub to store our repositories. Our way of using git:
     * Main
     * Development
   * #### Main Branch
-    * There should NOT be any other branches published on GitHub
     * Main branch should have the latest commit that the live version of the application have
-    * Every commit in the Main branch should have a version number tag
+    * Every last commit in the Main branch should have a version number tag
   * #### Development Branch
     * Development branch is the place we work on
     * Development branch should be merged into Main branch only when the application live on the app store, with the version tag
@@ -28,10 +27,11 @@ Steps to follow while working:
     * When you finish the subtask, commit your codes with the message starts with the jira issue number (ASMIOS-354)
     * Test it!
     * Merge branch into story branch and create another subtask branch until all subtask are done
+    * Push the commits to the Github (into the Story Branch)
     * When all tasks of the story is done, test it.
     * Fix your bugs in the story branch. 
     * When you sure with your test, pull the 'Development' branch commits into your story branch and merge them. 
     * Test the application to be sure the merge process is success
     * If there is a problem after merge, fix it. 
     * When you sure with your test, push your commits into 'Development' branch
-    * Then you can delete your story and task branches from your local. 
+    * Then you can delete your story and task branches from your local and also from the remote.
